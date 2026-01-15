@@ -1,4 +1,4 @@
-name: 'Hello World Docker Action'
+name: 'ganesshi Hello World Docker Action'
 description: 'Greet someone using Docker'
 branding:
   icon: 'anchor'
