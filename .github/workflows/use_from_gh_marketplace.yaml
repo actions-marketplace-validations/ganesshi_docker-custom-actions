@@ -1,0 +1,15 @@
+name: Use Published Action
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  greet_me:
+    runs-on: ubuntu-latest
+    steps:
+      - name: My Custom Greeting
+        uses: ganesshi/hello-world-docker-action@v1.0.0 # Match your Release Tag
+        with:
+          my_name: 'Marketplace Tester'
